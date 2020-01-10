@@ -73,7 +73,7 @@ public class ViewController implements Initializable {
 			
 
 			LabelDescription
-					.setText(quantidade + " tapetes do tipo "+onComboBoxRugAction()+"\n"+ altura + " m de altura e " + largura + " m de largura.");
+					.setText(quantidade + " tapetes do tipo "+onComboBoxRugAction()+"\n"+ largura + " m de largura por " + altura + " m de altura.");
 			labelPrecoFinal.setText(String.format("R$ %.2f", precoFinal));
 		}
 

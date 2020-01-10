@@ -2,15 +2,15 @@ package model.entities;
 
 import java.io.Serializable;
 
-public class Rug implements Serializable{
-	
+public class Rug implements Serializable {
+
 	private static final long serialVersionUID = 1L;
-	
+
 	private String name;
 	private double price;
-	
+
 	public Rug() {
-		
+
 	}
 
 	public Rug(String name, double price) {
@@ -40,12 +40,9 @@ public class Rug implements Serializable{
 
 	@Override
 	public String toString() {
-		//return "Tapetes [Tipo=" + name + ", preco=" + String.format("R$ %.2f",price)+"]";
-		return name+".";
+		// return "Tapetes [Tipo=" + name + ", preco=" + String.format("R$
+		// %.2f",price)+"]";
+		return name + ".";
 	}
-	
-	
-	
-	
 
 }
